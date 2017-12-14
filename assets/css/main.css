@@ -1,0 +1,77 @@
+@media (min-width: 320px) and (max-width: 1024px) {
+  [class*="col-"] {
+    max-width: 100%;
+    flex: none;
+  }
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+  background-color: #2B2B2B;
+  background-size: cover;
+  height: 100vh;
+  }
+
+  #titleOtro {
+    color: #C5813F;
+    margin-left: 23%;
+    margin-top: 2%;
+    width: 20%;
+  }
+
+  #linea {
+    border: 1px solid #ffffff;
+    margin-left: 20%;
+    width: 60%;
+  }
+
+  #map img {
+    width: 82%;
+    margin-left: 10%;
+    margin-top: 5%;
+  }
+
+  #subtitleOtro p {
+    color: #C5813F;
+    font-size: 155%;
+    width: 100%;
+    text-align: center;
+  }
+
+  #buscador {
+    width: 82%;
+    height: 60%;
+    margin-left: 10%;
+    margin-top: 2%;
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+  }
+
+  .comidaChilena img {
+    height: 10vh;
+    width: 80%;
+    margin-left: 8%;
+  }
+
+  .comidaMexicana img {
+    height: 10vh;
+    width: 80%;
+    margin-left: 8%;
+  }
+
+  .comidaPeruana img {
+    height: 10vh;
+    width: 80%;
+    margin-left: 8%;
+  }
+
+  .comidaItaliana img {
+    height: 10vh;
+    width: 80%;
+    margin-left: 8%;
+  }
+}
